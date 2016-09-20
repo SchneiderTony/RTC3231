@@ -1,0 +1,7 @@
+{
+    "name": "RTC3231",
+    "version": "1.0.0",
+    "author": "Tony Schneider <socalsurfer37@gmail.com>",
+    "license": "GNU",
+    "description": "Library intended for the operation of DS3231 RTC"
+}

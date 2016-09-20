@@ -17,18 +17,12 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
+#include "Arduino.h"
 
 #ifndef DS3231_h
 #define DS3231_h
 
-#if ARDUINO >= 100
-#include "Arduino.h"
-#else
-#include "WProgram.h"
-#endif
-
 #define DS3231_ADDRESS              (0x68)
-
 #define DS3231_REG_TIME             (0x00)
 #define DS3231_REG_ALARM_1          (0x07)
 #define DS3231_REG_ALARM_2          (0x0B)
